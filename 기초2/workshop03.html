@@ -59,21 +59,9 @@
       article.appendChild(card)
       card.appendChild(cardBody)
       cardBody.appendChild(cardTitle)
-      cardTitle.appendChild(cardText)
-
-      // append와 appendChild는 무슨 차이일까?
-      // article.append(card)
-      // card.append(cardBody)
-      // cardBody.append(cardTitle)
-      // cardTitle.append(cardText)
-
-      // 왜 여기는 안 되나요ㅠㅠ
-      // 4. 내용
-      //cardTitle.innerText = title
-      // cardText.innerText = content
+      cardBody.appendChild(cardText)
 
       return article
-    
     }
 
     // 카드 생성
